@@ -32,9 +32,8 @@ let main () =
 
     print_string "  Sorted: ";
     List.iter (Printf.printf "%d ") (quicksort list_to_sort);
-    print_newline ();
-    ;;
+    print_newline ()
 
 
 (* this can be run with: ocaml quicksort.ml on the command line *)
-main ()
+let _ = main ()
