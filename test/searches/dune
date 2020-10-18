@@ -1,0 +1,3 @@
+(tests
+ (names linear_search_test)
+ (libraries searches))
