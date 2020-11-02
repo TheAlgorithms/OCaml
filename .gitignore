@@ -24,3 +24,11 @@ setup.log
 
 ### IntelliJ
 .idea/
+
+# VSCode
+.vscode
+
+# dune build
+dune
+dune-project
+dune_main.ml
