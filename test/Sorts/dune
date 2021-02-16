@@ -1,0 +1,3 @@
+(tests
+ (names quicksort_test)
+ (libraries sorts))
