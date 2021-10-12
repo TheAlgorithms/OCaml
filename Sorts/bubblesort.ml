@@ -2,7 +2,7 @@
  * https://en.wikipedia.org/wiki/Bubble_sort *)
 
 (* a single pass of bubble sort
- * exchanges two elements if list is not already sorted and returns this (slightly more sorted) list
+ * 
  * if list is already sorted, returns it unchanged
  *)
 let rec bubblepass : 'a list -> 'a list = function
