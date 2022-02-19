@@ -37,4 +37,4 @@ let rec prims minst visitednodes notvisited =
 
 let mst edges = match edges with
     [] -> []
-  | (n1,w,n2) :: xs -> prims [] [n1] edges
+  | (n1,_,_) :: _ -> prims [] [n1] edges
