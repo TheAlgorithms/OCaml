@@ -5,3 +5,4 @@
 
 ## Sorts
   * [Quicksort](https://github.com/TheAlgorithms/OCaml/blob/master/Sorts/quicksort.ml)
+  * [Insertion Sort](https://github.com/TheAlgorithms/OCaml/blob/master/Sorts/insertionsort.ml)
