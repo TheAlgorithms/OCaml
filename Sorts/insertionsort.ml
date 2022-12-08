@@ -1,12 +1,19 @@
 (* Insertion Sort
  * https://en.wikipedia.org/wiki/Insertion_sort
  *)
- let rec insert s h =
-  match s with
+ 
+(* Compares h to be sorted with sorted hd and tail. Terminates when 
+ * h is smaller than an element in the list or if it reaches the end.
+ *)
+ let rec insert lst h =
+  match lst with
     | hd::tail -> if hd > h then h::hd::tail else hd::(insert tail h)
     | _ -> [h]
 
-
+(*Effectively a supplementary recurser for insert. Works similarly to the for
+* loop in standard insertion sort. Not as intuitive to look at, but try tracing
+* it out.
+*)
 let rec insertion_sort (lst : int list) : int list = match lst with
   | [] -> []
   | hd::tail -> insert (insertion_sort tail) hd
